@@ -2,4 +2,4 @@ api:
   reboot_timeout: 0s
 
 dashboard_import:
-  package_import_url: github://Anonym-tsk/smart-domofon/ge1mer/domofon.yaml@master
+  package_import_url: github://vl-em/smart-domofon/ge1mer/domofon.yaml@master
