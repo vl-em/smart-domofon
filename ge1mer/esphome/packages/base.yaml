@@ -9,7 +9,7 @@ esphome:
     name: "espdomofon.ru"
     version: "1.6.2"
   platformio_options:
-    build_flags: -DBEARSSL_SSL_BASIC -DMMU_IRAM_SIZE=0xC000 -DMMU_ICACHE_SIZE=0x4000 -DMMU_IRAM_HEAP
+    build_flags: -DBEARSSL_SSL_BASIC -DPIO_FRAMEWORK_ARDUINO_MMU_CUSTOM -DMMU_IRAM_SIZE=0xC000 -DMMU_ICACHE_SIZE=0x4000 -DMMU_IRAM_HEAP 
   on_boot:
     priority: 600
     then:
